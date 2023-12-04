@@ -1,88 +1,52 @@
 body {
-    display: block;
-    position: relative;
-    width: 80%;
-    background-color: rgb(207, 220, 199);
-}
-
-/* Contact info */
-
-.contact_info {
-    display: flex;
-    margin-left: 50px;
-    margin-top: 2%;
     font-family: 'Oswald', sans-serif;
-    font-size: small;
+    background-color: rgb(207, 220, 199);
+    margin: 0;
+    padding: 0;
 }
 
-.address img {
+header {
+    background-color: rgb(197, 218, 184);
+    padding: 10px 20px;
+}
+
+.contact-info {
     display: flex;
-    width: 4%;
-    position: relative;
-    top: 23px;
-    left: -27px;
-}
-
-.ph_no img {
-    display: flex;
-    width: 2.8%;
-    position: relative;
-    top: 18px;
-    left: -24px;
-}
-
-.email img {
-    display: flex;
-    width: 4%;
-    position: relative;
-    top: 20px;
-    left: -27px;
-}
-
-.contact_info ul {
-    color: rgb(18, 162, 18);
-    margin: 5px;
-    list-style: none;
-}
-
-.contact_info ul a {
-    text-decoration: none;
+    justify-content: space-around;
     color: rgb(18, 162, 18);
 }
 
-/* title_name */
+.contact-info img {
+    width: 20px;
+    margin-right: 8px;
+}
 
-.title_name {
+.contact-info address {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.title-name {
     font-family: 'Kanit', sans-serif;
     display: flex;
     width: 100%;
-    margin-top: 0px;
-    margin-left: 200px; 
+    margin-top: 5px;
+    margin-left: 50px; 
     font-size: 4cap;
-    color: rgb(3, 55, 8);
-}
+    color: rgb(23, 125, 33);}
 
-/* Intro */
-
-.Intro {
-    font-family: 'Nova Square', sans-serif;
-    font-style: oblique;
-    font-size: small;
-    margin-top: 0px;
-    margin-left: 67px;
-    width: 30%;
-    color: rgb(1, 41, 1);
-}
-
-/* Education */
-
-.Education {
-    margin-top: 40px;
-    margin-left: 100px;
+.intro {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(32, 70, 32);
 }
 
 .Education h2 {
-    width: 200px;
+    margin-top: 50px;
+    width: 270px;
     text-align: center;
     color: rgb(182, 26, 182);
 }
@@ -90,8 +54,6 @@ body {
 .Education ul {
     display: block;
     list-style: none;
-    margin-top: 5px;
-    margin-left: -40px;
 }
 
 .Education .l1 h4 {
@@ -117,15 +79,15 @@ body {
     top: 20px;
 }
 
-/* Interests */
-
 .Intrest {
-    margin-top: -197px;
-    margin-left: 400px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .Intrest h2 {
-    width: 220px;
+    margin-top: 50px;
+    width: 270px;
     text-align: center;
     color: rgb(182, 26, 182);
 }
@@ -134,14 +96,8 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
-/* Skills */
-
-.Skills {
-    margin-top: -350px;
-    margin-left: 750px; 
-}
-
 .Skills h2 {
+    margin-top: 50px;
     width: 270px;
     text-align: center;
     color: rgb(182, 26, 182);
@@ -151,13 +107,8 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
-/* Courses */
-.Courses {
-    margin-top: -120px;
-    margin-left: 650px; 
-}
-
-.Courses h2 { 
+.Courses h2 {
+    margin-top: 50px;
     width: 270px;
     text-align: center;
     color: rgb(182, 26, 182);
@@ -167,17 +118,14 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
-/* Experiences */
-
 .Experience {
     display: flexbox;
     position: relative;
-    margin-top: -150px;
-    margin-left: 1050px;
 }
 
 .Experience h2 {
-    width: 200px;
+    margin-top: 50px;
+    width: 270px;
     text-align: center;
     color: rgb(182, 26, 182);
 }
@@ -185,12 +133,9 @@ body {
 .Experience ul {
     display: block;
     list-style: none;
-    margin-top: 5px;
-    margin-left: -40px;
 }
 
 .Experience .l1 h4 {
-    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -201,7 +146,6 @@ body {
 }
 
 .Experience .l2 h4 {
-    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -212,85 +156,20 @@ body {
     top: 20px;
 }
 
-/* Decorations */
-
-.Decoration .l1 hr{
+.decoration {
     display: flex;
-    position: relative;
-    top: -220px;
-    left: -380px;
-    padding: 3px;
-    background-color: rgb(49, 194, 44);
-    width: 20%;
+    justify-content: space-around;
+    margin: 20px 0;
 }
 
-.Decoration .l2 hr{
-    display: flex;
-    position: relative;
-    top: -235px;
-    left: 100px;
-    padding: 3px;
-    background-color: rgb(6, 51, 4);
+.line {
+    height: 2px;
     width: 15%;
-}
-
-.Decoration .l3 hr{
-    display: flex;
-    position: relative;
-    top: -25px;
-    left: -510px;
-    padding: 3px;
-    background-color: rgb(33, 68, 32);
-    width: 10%;
-}
-
-.Decoration .l4 hr{
-    display: flex;
-    position: relative;
-    top: -40px;
-    left: -190px;
-    padding: 3px;
     background-color: rgb(13, 102, 12);
-    width: 10%;
 }
 
-.Decoration .l5 hr{
-    display: flex;
-    position: relative;
-    top: -215px;
-    left: 180px;
-    padding: 3px;
-    background-color: rgb(13, 102, 12);
-    width: 8%;
-}
-
-.Decoration .l6 hr{
-    display: flex;
-    position: relative;
-    top: -20px;
-    left: 80px;
-    padding: 3px;
-    background-color: rgb(13, 102, 12);
-    width: 10%;
-}
-
-.Decoration .l7 hr{
-    display: flex;
-    position: relative;
-    top: -70px;
-    left: 435px;
-    padding: 3px;
-    background-color: rgb(13, 102, 12);
-    width: 12%;
-}
-
-.footer {
-    width: 125%;
-    padding: 1%;
-    display: flex;
+footer {
     background-color: rgb(197, 218, 184);
-    top: 150px;
-    position: relative;
-    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
 }
-

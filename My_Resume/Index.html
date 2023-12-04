@@ -1,178 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@500&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Nova+Square&family=Oswald:wght@500&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link   
-        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Nova+Square&family=Oswald:wght@500&family=Roboto+Mono:wght@500&display=swap"
-        rel="stylesheet">
-    <title>My Resume</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@500&display=swap"
+            rel="stylesheet">
+        <title>My Resume</title>
+    </head>
 
-<body>
-    <main>
-        <section class="contact_info">
-            <ul>
-                <li class="address">
-                    <img src="https://static.vecteezy.com/system/resources/previews/000/552/683/non_2x/geo-location-pin-vector-icon.jpg"
-                        alt>
-                    <div>H.No 231a, Near Dattatraya Temple,</div>
-                    <div>Dattawadi, Sanvordem, Goa, 403706</div>
-                </li>
-                <li class="ph_no">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5n4muVyBpXmCd3a7ybygBq0FAxm5NASfyyw&usqp=CAU"
-                        alt>
+    <body>
+        <header>
+            <div class="contact-info">
+
+                <div class="info-item">
+                    <img
+                        src="https://static.vecteezy.com/system/resources/previews/000/552/683/non_2x/geo-location-pin-vector-icon.jpg"
+                        alt="Location">
+                    <address>
+                        H.No 231a, Near Dattatraya Temple, Dattawadi, Sanvordem,
+                        Goa, 403706
+                        <a
+                            href="https://www.google.com/maps/place/ADEL+PURIS+SANVORDEM/@15.2678082,74.1079564,19.73z/data=!4m6!3m5!1s0x3bbfad440d7960cf:0x12d508c06c0f41a8!8m2!3d15.2677077!4d74.1081718!16s%2Fg%2F11k5hvpcbk?authuser=0&entry=ttu"
+                            target="_blank">View on Google Maps</a>
+                    </address>
+                </div>
+
+                <div class="info-item">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5n4muVyBpXmCd3a7ybygBq0FAxm5NASfyyw&usqp=CAU"
+                        alt="Phone">
                     <div>8830106157</div>
-                </li>
-                <li class="email">
-                    <img src="data:image/png;base64,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"
-                        alt>
-                    <div><a href="/https://www.youtube.com/shorts/SXHMnicI6Pg">sohalsawardekar11@gmail.com</a></div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="title_name">
-            <h1>SOHAL SAWARDEKAR</h1>
-        </section>
-
-        <section class="Intro">
-            <div>
-                Creative and innovative graphic designer with a passion for translating ideas into visual masterpieces.
-                Known for combining artistic flair with technical expertise to deliver stunning and effective design
-                solutions.
-                With a proven track record of creating engaging visuals that captivate audiences and drive brand
-                success,
-                I am dedicated to pushing the boundaries of design to bring visions to life.
+                </div>
+                <div class="info-item">
+                    <img
+                        src="data:image/png;base64,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"
+                        alt="Email">
+                    <div><a href="mailto:sohalsawardekar11@gmail.com">sohalsawardekar11@gmail.com</a></div>
+                </div>
             </div>
+        </header>
+
+        <main>
+            <section class="title-name">
+                <h1>Sohal Sawardekar</h1>
+            </section>
+
+            <section class="intro">
+                <p>
+                    Creative and innovative graphic designer with a passion for
+                    translating ideas into visual masterpieces.
+                    Known for combining artistic flair with technical expertise
+                    to deliver stunning and effective design
+                    solutions. With a proven track record of creating engaging
+                    visuals that captivate audiences and drive brand
+                    success, I am dedicated to pushing the boundaries of design
+                    to bring visions to life.
+                </p>
+            </section>
+
+            <section class="Education">
+                <h2>EDUCATION</h2>
+                <ul>
+                    <li>
+                        <div class="l1">
+                            <div>2022-2026</div>
+                            <h4>B.E in Computer Engineering</h4>
+                            <div>Goa College Of Engineering</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="l2">
+                            <div>2022-2026</div>
+                            <h4>B.E in Computer Engineering</h4>
+                            <div>Goa College Of Engineering</div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="Intrest">
+                <h2>INTEREST</h2>
+                <ul>
+                    <li>Exploring Latest Tech</li>
+                    <li>Travelling</li>
+                    <li>Gaming</li>
+                    <li>Photography</li>
+                </ul>
+            </section>
+
+            <section class="Experience">
+                <h2>EXPERIENCE</h2>
+                <ul>
+                    <li>
+                        <div class="l1">
+                            <h4>IT Intern </h4>
+                            <div>Procter & Gamble (P&G), Mumbai, 400099.</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="l2">
+                            <h4>Application Developer</h4>
+                            <div>Accenture, Bengaluru, Karnataka, 560029.</div>
+                        </div>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="Courses">
+                <h2>COURSES</h2>
+                <ul>
+                    <li>Fundamental of Web Development</li>
+                    <li>Cloud Computing By Google</li>
+                    <li>Joy of Computing using Python</li>
+                </ul>
+            </section>
+
+            <section class="Skills">
+                <h2>SKILLS</h2>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Python Development</li>
+                    <li>Web Development</li>
+                    <li>ML And AI</li>
+                    <li>Self Learner</li>
+                </ul>
+            </section>
+
+        </main>
+
+        <section class="decoration">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </section>
 
-        <section class="Education">
-            <h2>EDUCATION</h2>
-            <ul>
-                <li>
-                    <div class="l1">
-                        <div>2022-2026</div>
-                        <h4>B.E in Computer Engineering</h4>
-                        <div>Goa College Of Engineering</div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="l2">
-                        <div>2022-2026</div>
-                        <h4>B.E in Computer Engineering</h4>
-                        <div>Goa College Of Engineering</div>
-                    </div>
-                </li>
-
-
-            </ul>
-        </section>
-
-
-        <section class="Intrest">
-            <h2>INTEREST</h2>
-            <ul>
-                <li>Exploring Latest Tech</li>
-                <li>Travelling</li>
-                <li>Gaming</li>
-                <li>Photography</li>
-            </ul>
-        </section>
-
-
-        <section class="Experience">
-            <h2>EXPERIENCE</h2>
-            <ul>
-                <li>
-                    <div class="l1">
-                        <h4>IT Intern </h4>
-                        <div>Procter & Gamble (P&G), Mumbai, 400099.</div>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="l2">
-                        <h4>Application Developer</h4>
-                        <div>Accenture, Bengaluru, Karnataka, 560029.</div>
-                    </div>
-                </li>
-
-
-            </ul>
-        </section>
-
-
-        <section class="Courses">
-            <h2>COURSES</h2>
-            <ul>
-                <li>Fundamental of Web Development</li>
-                <li>Cloud Computing By Google</li>
-                <li>Joy of Computing using Python</li>
-            </ul>
-        </section>
-
-
-        <section class="Skills">
-            <h2>SKILLS</h2>
-            <ul>
-                <li>Problem Solving</li>
-                <li>Python Development</li>
-                <li>Web Development</li>
-                <li>ML And AI</li>
-                <li>Self Learner</li>
-            </ul>
-        </section>
-
-
-        <section class="References">
-
-        </section>
-
-    </main>
-
-    <section class="Decoration">
-        <div class="l1">
-            <hr>
-        </div>
-        <div class="l2">
-            <hr>
-        </div>
-        <div class="l3">
-            <hr>
-        </div>
-        <div class="l4">
-            <hr>
-        </div>
-        <div class="l5">
-            <hr>
-        </div>
-        <div class="l6">
-            <hr>
-        </div>
-        <div class="l7">
-            <hr>
-        </div>
-
-    </section>
-
-    <section class="footer">
-        <div>Copyright &#169; All Rights Reserved</div>
-    </section>
-</body>
+        <footer>    
+            <div>&#169; 2023 All Rights Reserved</div>
+        </footer>
+    </body>
 
 </html>
